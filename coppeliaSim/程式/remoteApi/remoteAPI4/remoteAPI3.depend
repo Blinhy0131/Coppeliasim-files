@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1414000244 source:e:\brian\001\remoteapi\remoteapi3\remoteapi\v_replib.cpp
+	"v_repLib.h"
+	<stdio.h>
+	<dlfcn.h>
+
+1414000244 e:\brian\001\remoteapi\remoteapi3\remoteapi\v_replib.h
+	"v_repConst.h"
+	"v_repTypes.h"
+	<QLibrary>
+	<Windows.h>
+
+1414000244 e:\brian\001\remoteapi\remoteapi3\remoteapi\v_repconst.h
+
+1414000244 e:\brian\001\remoteapi\remoteapi3\remoteapi\v_reptypes.h
+
