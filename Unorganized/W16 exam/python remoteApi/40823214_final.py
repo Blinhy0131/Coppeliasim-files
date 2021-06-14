@@ -45,7 +45,6 @@ clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
   
 if clientID != -1:
     print ('Connected to remote API server')
-      
     res = vrep.simxAddStatusbarMessage(
         clientID, "This is teach by 40823214 ",
         vrep.simx_opmode_oneshot)
