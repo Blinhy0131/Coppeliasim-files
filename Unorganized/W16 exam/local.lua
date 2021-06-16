@@ -14,7 +14,7 @@ function moving(x,y)
     c=math.pow(math.pow(x,2)+math.pow(y,2),0.5)
     s=(a+b+c)*0.5
     area=math.pow((s*(s-a)*(s-b)*(s-c)),0.5)
-    h=area/(2*c)
+    h=2*area/c
     deg1_base=math.atan(x/y)
     if x<0 and y<0 then
         deg1_base=deg1_base+math.pi
